@@ -45,3 +45,11 @@ function reset() {
 // add functionality that anitame the person entering when the increment button is clicked
 // and animate the person leaving when the decrement button is clicked
 //then add a random function that base on the random number show as many person entering or exiting and update the corrisponding number to the counter
+
+// Update the footer year dynamically
+function updateYear() {
+      const year = new Date().getFullYear(); // Get the current year
+      document.getElementById('currentYear').textContent = year;
+}
+// Call the function to set the year on page load
+updateYear();
