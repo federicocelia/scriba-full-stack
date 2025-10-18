@@ -1,0 +1,87 @@
+* {
+margin: 0;
+padding: 0;
+margin-block-start: 0px;
+}
+
+html {
+    color:antiquewhite;
+    text-align: center;
+    margin: 0;
+}
+
+
+body {
+    background-image: url("./images/station.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 50px auto 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+}
+
+.peopleTotalCount {
+    display: inline;
+}
+
+/* modify flex blox to have 2 columns */
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+#increment-btn, #decrement-btn, #save-btn, #reset-btn {
+    background-color: rgba(34, 55, 243);
+    border: 1px solid antiquewhite ;
+    border-radius: 5px;
+    color: antiquewhite;
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 200px;
+}
+
+footer {
+    background-color: rgba(34, 55, 243, 0.9);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color:antiquewhite;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.save-reset {
+    display: flex;
+    all:unset;
+}
+
+.people{
+    display: flex;
+    all:unset;
+    text-align: left;
+    margin-left: 0;
+}
+
+#person-entering {
+    font-size: 200px;
+    margin-top: 20px;
+}

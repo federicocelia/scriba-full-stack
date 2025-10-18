@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="author" name="Federico Celia" />
+    <title>Passenger Counter App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1>People Entered:</h1>
+      <h2 id="count-el">0</h2>
+    <section>
+      <h2 class="peopleTotalCount">People total count :</h2> 
+      <h2 class="peopleTotalCount" id="totalCount-el"> 0</h2>
+    </section>
+
+    </section>
+    <section class="buttons">
+      <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <button id="save-btn" onclick="save()">SAVE</button>
+      <button id="reset-btn" onclick="reset()">RESET</button>
+    </section>
+
+    <section class="people">
+      <p id="person-entering">🏃‍♂️‍➡️</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 - Made by Federico Celia</p>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@eprouzet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          target="_blank"
+          >Eric Prouzet</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/silver-electronic-gate-vSKnoJZr3m8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
