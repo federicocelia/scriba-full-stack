@@ -1,0 +1,21 @@
+body {
+  background-image: url("./images/casino-background.jpg");
+  background-size: cover;
+  font-family: "trebuchet ms", "lucida sans unicode", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 90px;
+  padding-bottom: 40px;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+}
+
+#message-el {
+  font-style: italic;
+}
