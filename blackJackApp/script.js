@@ -6,6 +6,12 @@ let hasBlackJack = false;
 let isAlive = true;
 
 let message = "";
+let cards = "";
+
+let messageEl = document.getElementById("message-el");
+let cardsEl = document.getElementById("cards-el");
+let sumEl = document.getElementById("sum-el");
+let startButton = document.getElementById("start-button");
 
 function startGame() {
   console.log("Sum: " + sum);
@@ -20,5 +26,8 @@ function startGame() {
     message = "You're out of the game! 😞";
     isAlive = false;
   }
-  console.log(message);
+  messageEl.textContent = message;
+  cardsEl.textContent = `Cards: ${firstCard} - ${secondCard}`;
+  sumEl.textContent = `Sum: ${sum}`;
+  startButton.textContent = "RESTART GAME";
 }
